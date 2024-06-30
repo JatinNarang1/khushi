@@ -89,7 +89,7 @@ function yesButton() {
     yesAudio.play();
 
     jsConfetti.addConfetti({
-        emojis: ['🍪', '☕', '🍪', '☕', '🍪', '☕', '🍪', '☕', '🍪', '☕', '🍪', '☕'],
+        emojis: ['🥳', '🎉', '🥳', '🎉', '🥳', '🎉', '🥳', '🎉', '🥳', '🎉', '🥳', '🎉'],
         emojiSize: 100,
         confettiNumber: 100,
     });
@@ -98,7 +98,7 @@ function yesButton() {
 function confetti() {
     if (yesImage.style.display !== 'none') {
         jsConfetti.addConfetti({
-            emojis: ['🍪', '☕', '🍪', '☕', '🍪', '☕', '🍪', '☕', '🍪', '☕', '🍪', '☕'],
+            emojis: ['🥳', '🎉', '🥳', '🎉', '🥳', '🎉', '🥳', '🎉', '🥳', '🎉', '🥳', '🎉'],
             emojiSize: 100,
             confettiNumber: 100,
         });
